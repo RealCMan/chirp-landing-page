@@ -1,0 +1,141 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 14px;
+}
+
+.small-grey-text {
+    color: grey; 
+}
+
+.dark-blue-text {
+    color: #1F7898;
+    font-weight: bold;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.top-section {
+    background-color: #FBF8F3;
+}
+
+.title-bar-container {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    margin: 0px 200px;
+    padding: 20px 0px;
+}
+
+.title-name {
+    color: #1DA1F2;
+    font-weight: bold;
+    font-style:italic;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar a{
+    margin: 0px 10px;
+}
+
+.twitter-sign-in-btn {
+    color: white;
+    background-color: #1da1f2;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 35px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.twitter-sign-in-btn img {
+    margin:0px 5px 0px 10px;
+}
+
+.summary-title {
+    font-size: 2.5rem;
+}
+
+.main-summary-container {
+    margin: 15px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary {
+    width: 500px;
+    margin-right: 100px;
+}
+
+.summary-link-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.user-trend-container {
+    background-color: #D7F5F5;
+    min-width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.user-trend-container strong {
+    font-size: 1.1rem;
+}   
+
+.user-trend-container span {
+    font-size: 0.8rem;
+}
+
+.user-trend-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.user-trend-info select {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.user-info {
+    display: flex;
+}
+
+.user-info img {
+    margin-right: 10px;
+}
+
+.user-trend-impressions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.user-trend-engagement {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
